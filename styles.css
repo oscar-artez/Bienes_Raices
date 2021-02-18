@@ -1,0 +1,170 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+
+body{
+    background-color: #2c3e4e;
+}
+
+button {
+    color:#2c3e4e;
+}
+
+header {
+    height: 1000px;
+}
+
+header .header-navbar {
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/images/header.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+header .header-navbar-content {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+header .logo-vector{
+    margin-left:25px;
+    margin-top: 20px;
+}
+
+header .header-navbar-content li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size:30px;
+    margin-right: 20px;
+
+}
+
+header .header-text {
+    color: white;
+    position: absolute;
+    top: 850px;
+    font-size:35px;
+    margin-left: 25px;
+}
+
+.main-subtitles {
+    text-align: center;
+    margin-top:30px;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    padding:30px 0  0 100px;
+    margin-bottom: 30px;
+}
+
+.icon-padl{
+   width: 119.3px;
+   height: 93px;
+
+}
+.about-us-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.about-us-subtitles{
+    margin-top: 20px;
+}
+
+.about-us-text {
+    text-align: center;
+    margin: 25px 0 30px 0;
+}
+
+.products {
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products-container {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    margin-top: 30px;
+    align-items: center;
+    align-content: center;
+}
+
+.products-text{
+    text-align:center;
+    margin-bottom:15px;
+
+}
+.details-product-icons{
+    display:flex;
+    align-content: center;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.products-subtitles{
+    margin:20px 0 25px 0;
+
+}
+
+.icons-proper{
+    display: flex;
+    margin-right: 20px;
+}
+
+.view-all-button{
+    margin:30px 0 30px 0;
+}
+
+.contact-us-image {
+    width: 100%;
+} 
+
+.contact-us{
+    margin:20px 0 20px 15px;
+}
+
+.contact-us-button{
+    margin-left: 15px;
+}
+
+.footer-navbar-content{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 700px;
+}
+
+
+.footer-navbar-content li a{
+    color:antiquewhite;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size:30px;
+    margin-left: 20px;
+}
+
+
+.more-information-button{
+    margin-top: 20px;
+}
+
+.copyright{
+    text-align:center;
+    margin-top: 20px;
+}
